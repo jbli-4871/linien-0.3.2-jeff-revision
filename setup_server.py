@@ -6,12 +6,12 @@ assert linien.__version__ != 'dev'
 setuptools.setup(
     name="linien-server",
     version=linien.__version__,
-    author="Benjamin Wiegand",
-    author_email="highwaychile@posteo.de",
-    description="Server of linien that runs on RedPitaya.",
+    author="Jeffrey Li",
+    author_email="jeffreyli@g.harvard.edu",
+    description="Modified linien server",
     long_description="Have a look at the \"linien\" package for installation instructions.",
     long_description_content_type="text/x-rst",
-    url="https://github.com/hermitdemschoenenleben/linien",
+    url="https://github.com/jbli-4871/linien-0.3.2-jeff-revision",
     packages=['linien', 'linien.server', 'linien.server.optimization'],
     classifiers=[
         "Programming Language :: Python :: 3",

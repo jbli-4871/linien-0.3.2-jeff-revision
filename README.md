@@ -1,11 +1,12 @@
-LINIEN-RELOCK
+LINIEN - REVISED
 ======
 
 <img align="right" src="https://raw.githubusercontent.com/hermitdemschoenenleben/linien/master/docs/icon.png" width="20%">
 
 This is a copy of [linien v0.3.2](https://github.com/linien-org/linien/tree/v0.3.2) that's been modified to:
 - fix package dependency issues
-- include a "Relock" mode that uses the RedPitaya to control a Vescent Lockbox via a TTL pulse through Analog Output 2
+- include a "Relock" mode that uses the RedPitaya to control a Vescent Lockbox via a TTL pulse through Analog Output 2.
+
 Please refer to the main [linien v0.3.2 repo](https://github.com/linien-org/linien/tree/v0.3.2) for more details about the base package.
 
 Installation Instructions
@@ -13,7 +14,7 @@ Installation Instructions
 
 ### 1. Setting up a virtual environment
 
-Because the original linien v0.3.2 package depends on several packages that have since been updated/deprecated, the safest way to install linien-relock on a new computer is to create a virtual environment (venv). This prevents version compatibility errors between linien's required packages and any packages you might already have installed on your computer. 
+Because the original linien v0.3.2 package depends on several packages that have since been updated/deprecated, the safest way to install this version of linien on a new computer is to create a virtual environment (venv). This prevents version compatibility errors between linien's required packages and any packages you might already have installed on your computer. 
 
 Before creating the venv, check if you have Python 3.12 installed. Linien will not run on newer version of Python. Open a command window and type
 ```bash
