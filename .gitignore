@@ -17,7 +17,6 @@ linien-*
 linien.egg-info
 linien_server.egg-info
 fpga_build
-VERSION
 .Xil
 .pytest_cache
 *.egg-info
